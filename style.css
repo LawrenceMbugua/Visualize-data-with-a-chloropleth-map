@@ -1,0 +1,16 @@
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#canvas {
+    min-height: 800px;
+    width: fit-content;
+}
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
